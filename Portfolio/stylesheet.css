@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+   background-image: url('img/bg.png');
+}
+
+.title{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.web{
+    font-family: "Segoe Script";
+    padding-left: 25%;
+    font-size: larger;
+}
+
+hr {  
+    height: 2px;  
+    background-color:gray;  
+    border: none;  
+} 
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a:hover{
+    color: #88AB8E;
+}
+
+.name{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.name h1{
+    font-size: 100px;
+    color: #AAD9BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#photo{
+    position: absolute;
+    bottom: 140px;
+    right: 340px;
+}
+
+.about{
+    text-align: left;
+    font-family: 'Bubblegum Sans';
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+.paragraph{
+    font-style: oblique;
+    text-align: left;
+    padding-left: 20%;
+
+}
+
+.skills{
+    text-align: left;
+    font-family: 'Bubblegum Sans';
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+.programming{
+    color: #AAD9BB;
+}
+
+.Frontend{
+    color: #AAD9BB;
+}
+
+.ui{
+    color: #AAD9BB;
+}
+
+.certificates{
+    text-align: left;
+    font-family: 'Bubblegum Sans';
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+
+
+.course{
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sc{
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social{
+    text-align: left;
+    font-family: 'Bubblegum Sans';
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+.center {
+    display: block;
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 5%;
+}
+
+.linkedin{
+    margin-right: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.linkedin a:hover{
+    color: #88AB8E;
+}
+
+
+.github{
+    margin-right: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.github a:hover{
+    color: #88AB8E;
+}
+
+
+.mail{
+    margin-right: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px; 
+}
+
+.mail a:hover{
+    color: #88AB8E;
+}
+
+button{
+    color: black;
+}
+
+#resume{
+   
+    color: white;
+    
+    padding-top: 50px;
+    padding-left: 730px; 
+}
+
+
+
+button{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: bold;
+}
+
+button:hover {
+    background-color: #88AB8E; 
+}
+
+.d_resume{
+    padding-top: 50px;
+}
+
+.head{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 0px; 
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
